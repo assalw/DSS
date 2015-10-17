@@ -1,4 +1,4 @@
 # Start the crawler
 
-cd ../verticalsearch/crawler
-scrapy crawl github
+cd ..
+scrapy crawl reddit

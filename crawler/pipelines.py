@@ -10,7 +10,7 @@ class CrawlerPipeline(object):
     def process_item(self, item, spider):
         return item
 
-class GitHubUserPipeline(object):
+class RedditUserPipeline(object):
  
     def process_item(self, item, spider):
  

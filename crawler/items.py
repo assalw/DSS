@@ -9,7 +9,7 @@ from scrapy_djangoitem import DjangoItem
 from scrapy.item import Field
 
 # Django models import
-from verticalsearch.models import GitHubUser
+from verticalsearch.models import RedditUser
 
-class GitHubUserItem(DjangoItem):
-    django_model = GitHubUser
+class RedditUserItem(DjangoItem):
+    django_model = RedditUser

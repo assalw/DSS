@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'crawler.spiders'
 
 # Pipelines
 ITEM_PIPELINES = {
-    'crawler.pipelines.GitHubUserPipeline': 300,
+    'crawler.pipelines.RedditUserPipeline': 300,
     # 'myproject.pipelines.JsonWriterPipeline': 800,
 }
 

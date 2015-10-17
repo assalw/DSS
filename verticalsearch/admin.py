@@ -1,9 +1,9 @@
 from django.contrib import admin
-from models import GitHubUser
+from models import RedditUser
 
 # Register your models here.
 
-class GitHubUserAdmin(admin.ModelAdmin):
+class RedditUserAdmin(admin.ModelAdmin):
     list_display = ['username']
 
-admin.site.register(GitHubUser, GitHubUserAdmin)
+admin.site.register(RedditUser, RedditUserAdmin)
