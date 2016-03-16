@@ -19,6 +19,14 @@ Install with pip install:
 
 Solr is provided with the application.
 
+#### Database creation
+
+Before the application can be used, we first need to create a database with the following command:
+
+`python manage.py syncdb`
+
+Django versions newer than 1.6, may use different methods.
+
 #### Useful commands
 Run these commands from the project root to start the application.
 
